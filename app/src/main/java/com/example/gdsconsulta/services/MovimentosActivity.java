@@ -1,27 +1,23 @@
-package com.example.gdsconsulta;
+package com.example.gdsconsulta.services;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.view.View;
-import android.widget.Adapter;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.gdsconsulta.R;
+import com.example.gdsconsulta.adapter.Adaptador;
+import com.example.gdsconsulta.constant.Constante;
+import com.example.gdsconsulta.Interfaces.GDSInterfaceService;
+import com.example.gdsconsulta.adapter.EndlessRecyclerViewScrollListener;
 import com.example.gdsconsulta.itemDecoration.SimpleDividerItemDecoration;
 import com.example.gdsconsulta.models.Empresa;
 import com.example.gdsconsulta.models.Movimento;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import okhttp3.OkHttpClient;

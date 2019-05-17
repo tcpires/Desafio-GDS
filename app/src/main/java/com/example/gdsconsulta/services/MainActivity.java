@@ -1,8 +1,6 @@
-package com.example.gdsconsulta;
+package com.example.gdsconsulta.services;
 
 import android.content.Intent;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -11,6 +9,9 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.gdsconsulta.R;
+import com.example.gdsconsulta.constant.Constante;
+import com.example.gdsconsulta.Interfaces.GDSInterfaceService;
 import com.example.gdsconsulta.models.Empresa;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

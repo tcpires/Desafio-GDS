@@ -1,4 +1,4 @@
-package com.example.gdsconsulta;
+package com.example.gdsconsulta.Interfaces;
 
 import com.example.gdsconsulta.models.Empresa;
 import com.example.gdsconsulta.models.Movimento;

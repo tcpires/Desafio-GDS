@@ -1,36 +1,17 @@
-package com.example.gdsconsulta;
+package com.example.gdsconsulta.adapter;
 
 
-import android.app.Activity;
 import android.support.v7.widget.RecyclerView;
-import android.text.format.DateFormat;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.BaseAdapter;
-import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.gdsconsulta.models.Empresa;
+import com.example.gdsconsulta.R;
 import com.example.gdsconsulta.models.Movimento;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 import java.text.DecimalFormat;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.PriorityQueue;
-
-import okhttp3.OkHttpClient;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
 
 public class Adaptador extends RecyclerView.Adapter<Adaptador.ViewHolder> {
 

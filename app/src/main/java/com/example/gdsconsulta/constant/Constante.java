@@ -1,4 +1,4 @@
-package com.example.gdsconsulta;
+package com.example.gdsconsulta.constant;
 
 public class Constante {
 
