@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GDS Consulta</string>
+    <string name="r_100_00">R$ 100,00</string>
+    <string name="buscar">Buscar</string>
+    <string name="saldo">Saldo</string>
+    <string name="nome_do_cliente">Nome do Cliente</string>
+    <string name="nome_da_empresa">Nome da Empresa</string>
+</resources>

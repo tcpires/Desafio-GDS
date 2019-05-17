@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:id="@+id/layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        >
+        <TextView
+            android:id="@+id/operacao_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID: 123456789"
+            android:textAlignment="center"
+            android:textColor="@color/titulo"
+            android:textSize="20dp"
+            android:textStyle="bold"
+           />
+
+        <TextView
+            android:id="@+id/operacao_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@id/operacao_id"
+            android:padding="5dp"
+            android:text="00/00/0000"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/cliente"
+            android:textSize="15dp"
+             />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layout_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:id="@+id/codigo_produto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Produto: 123456789"
+            android:textAlignment="center"
+            android:textColor="@color/titulo"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/descricao_produto"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_below="@id/cancelado"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:text="Descrição Produto XPTOP - xptopxptopxtop"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/quantidade_venda"
+            android:layout_below="@id/descricao_produto"
+            android:text="Vendidos: xx unidades"
+            android:textAlignment="center"
+            android:textColor="@color/cliente"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/cancelado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/codigo_produto"
+            android:text="cancelado (s/n): n" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/valores">
+
+        <TextView
+            android:id="@+id/valor_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Valor Total: R$ 100,00"
+            android:textSize="25dp"
+            android:textColor="@color/saldo"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
